@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basic Test</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+
+    <header>
+        <h1>Logo</h1>
+        <nav>
+        </nav>
+    </header>
+
+    <main>
+        <section id="list-address">
+            <div class="popup-img">
+                <span class="bgr close"></span>
+                <div class="box">
+                    <img id="popup-image" src="" alt="Popup Image">
+                </div>
+            </div>
+            <ul class="list">
+                <li class="item">
+                    <div class="wrap">
+                        <img src="images/pic1.png" width="500" height="500" alt="Ảnh 1">
+                        <h2 class="name">Điểm đến 1</h2>
+                        <p class="desc">
+                            Bạn đang được giao việc xây dựng trang web cho một công ty du lịch. Trang web cần hiển
+                            thị danh sách các điểm đến phổ biến và cho phép người dùng đặt tour. Hãy xây dựng layout
+                            của trang web với HTML và CSS.
+                        </p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="wrap">
+                        <img src="images/pic2.png" width="500" height="500" alt="Ảnh 2">
+                        <h2 class="name">Điểm đến 1</h2>
+                        <p class="desc">
+                            Bạn đang được giao việc xây dựng trang web cho một công ty du lịch. Trang web cần hiển
+                            thị danh sách các điểm đến phổ biến và cho phép người dùng đặt tour. Hãy xây dựng layout
+                            của trang web với HTML và CSS.
+                        </p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="wrap">
+                        <img src="images/pic3.png" width="500" height="500" alt="Ảnh 4">
+                        <h2 class="name">Điểm đến 1</h2>
+                        <p class="desc">
+                            Bạn đang được giao việc xây dựng trang web cho một công ty du lịch. Trang web cần hiển
+                            thị danh sách các điểm đến phổ biến và cho phép người dùng đặt tour. Hãy xây dựng layout
+                            của trang web với HTML và CSS.
+                        </p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="wrap">
+                        <img src="images/pic4.png" width="500" height="500" alt="Ảnh 3">
+                        <h2 class="name">Điểm đến 1</h2>
+                        <p class="desc">
+                            Bạn đang được giao việc xây dựng trang web cho một công ty du lịch. Trang web cần hiển
+                            thị danh sách các điểm đến phổ biến và cho phép người dùng đặt tour. Hãy xây dựng layout
+                            của trang web với HTML và CSS.
+                        </p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="wrap">
+                        <img src="images/pic5.png" width="500" height="500" alt="Ảnh 3">
+
+                        <h2 class="name">Điểm đến 1</h2>
+                        <p class="desc">
+                            Bạn đang được giao việc xây dựng trang web cho một công ty du lịch. Trang web cần hiển
+                            thị danh sách các điểm đến phổ biến và cho phép người dùng đặt tour. Hãy xây dựng layout
+                            của trang web với HTML và CSS.
+                        </p>
+
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="wrap">
+                        <img src="images/pic1.png" width="500" height="500" alt="Ảnh 3">
+                        <h2 class="name">Điểm đến 1</h2>
+                        <p class="desc">
+                            Bạn đang được giao việc xây dựng trang web cho một công ty du lịch. Trang web cần hiển
+                            thị danh sách các điểm đến phổ biến và cho phép người dùng đặt tour. Hãy xây dựng layout
+                            của trang web với HTML và CSS.
+                        </p>
+                    </div>
+                </li>
+
+            </ul>
+        </section>
+
+        <section id="form-register">
+            <h1>Đăng Ký Thông Tin</h1>
+            <form action="/submit" method="post">
+
+                <label for="name">Tên:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="location">Địa điểm đến:</label>
+                <input type="text" id="location" name="location" required>
+
+                <label for="date">Ngày khỏi hành:</label>
+                <input type="date" id="date" name="date" required>
+
+                <button type="submit">Gửi</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Bài test basic HTML</p>
+    </footer>
+
+</body>
+</html>
+<style type="text/css">
+    @keyframes zoom-in-zoom-out {
+        0% {
+            transform: scale(1, 1);
+        }
+        50% {
+            transform: scale(1.2, 1.2);
+        }
+        100% {
+            transform: scale(1, 1);
+        }
+    }
+    body{
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        text-align: center;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    main {
+        width: 1170px;
+        padding: 15px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        margin: 0 -15px;
+        flex-wrap: wrap;
+    }
+    li.item {
+        width: 33.333%;
+        padding: 0 15px;
+        margin-bottom: 30px;
+        box-sizing: border-box;
+    }
+    .item .wrap {
+        border: 1px solid #eee;
+        border-radius: 10px;
+        height: 100%;
+        overflow: hidden;
+    }
+    .wrap h2, .wrap p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .wrap img:hover{
+        opacity: 0.9;
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    #form-register {
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #form-register form {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    form input {
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    form button {
+        width: auto;
+        max-width: fit-content;
+        padding: 10px 30px;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+    /* Popup style */
+    .popup-img {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .popup-img .close{
+        position: absolute;
+        background: rgb(0 0 0 / 50%);
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    .box {
+        width: 50%;
+        height: auto;
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .box img{
+        animation: zoom-in-zoom-out 4s ease-out infinite;
+    }
+
+    /* Footer style */
+    footer p {
+        text-align: center;
+        background-color: #1f1f1f;
+        padding: 50px 0;
+        margin: 30px 0 0;
+        color: #FFF;
+    }
+</style>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".item img").on("click", function(){
+                var imageUrl = $(this).attr("src");
+
+                $("#popup-image").attr("src", imageUrl);
+                $(".popup-img").show();
+            });
+
+            $(".close").on("click", function(){
+                $(".popup-img").hide();
+            });
+    });
+</script>
