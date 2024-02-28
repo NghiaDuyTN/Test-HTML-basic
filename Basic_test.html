@@ -5,76 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Basic Test</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
-<body>
-
-
+<body class="m-0 p-0">
     <header>
-        <h1>Logo</h1>
+        <h1 class="text-center text-4xl font-bold p-5">Logo</h1>
         <nav>
         </nav>
     </header>
 
-    <main>
+    <main class="max-w-screen-lg mx-auto px-4 box-border overflow-hidden">
         <section id="list-address">
-            <div class="popup-img">
+            <div class="popup-img fixed inset-0 hidden">
                 <span class="bgr close"></span>
-                <div class="box">
+                <div class="box w-1/2 h-auto absolute z-2 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                     <img id="popup-image" src="" alt="Popup Image">
                 </div>
             </div>
-            <ul class="list">
-                <li class="item">
-                    <div class="wrap">
-                        <img src="images/pic1.png" width="500" height="500" alt="Ảnh 1">
-                        <h2 class="name">Điểm đến 1</h2>
-                        <p class="desc">
+            <ul class="list p-0 flex flex-wrap -mx-3">
+                <li class="item w-1/3 px-4 mb-8 box-border">
+                    <div class="wrap border border-solid border-gray-300 rounded-lg h-full overflow-hidden">
+                        <img class="w-full h-auto cursor-pointer transition duration-500" src="images/pic1.png" width="500" height="500" alt="Ảnh 1">
+                        <h2 class="name text-center text-2xl font-bold uppercase py-4 px-5">Điểm đến 1</h2>
+                        <p class="desc px-5 pb-5">
                             Bạn đang được giao việc xây dựng trang web cho một công ty du lịch. Trang web cần hiển
                             thị danh sách các điểm đến phổ biến và cho phép người dùng đặt tour. Hãy xây dựng layout
                             của trang web với HTML và CSS.
                         </p>
                     </div>
                 </li>
-                <li class="item">
-                    <div class="wrap">
-                        <img src="images/pic2.png" width="500" height="500" alt="Ảnh 2">
-                        <h2 class="name">Điểm đến 1</h2>
-                        <p class="desc">
+                <li class="item w-1/3 px-4 mb-8 box-border">
+                    <div class="wrap border border-solid border-gray-300 rounded-lg h-full overflow-hidden">
+                        <img class="w-full h-auto cursor-pointer transition duration-500" src="images/pic2.png" width="500" height="500" alt="Ảnh 2">
+                        <h2 class="name text-center text-2xl font-bold uppercase py-4 px-5">Điểm đến 2</h2>
+                        <p class="desc px-5 pb-5">
                             Bạn đang được giao việc xây dựng trang web cho một công ty du lịch. Trang web cần hiển
                             thị danh sách các điểm đến phổ biến và cho phép người dùng đặt tour. Hãy xây dựng layout
                             của trang web với HTML và CSS.
                         </p>
                     </div>
                 </li>
-                <li class="item">
-                    <div class="wrap">
-                        <img src="images/pic3.png" width="500" height="500" alt="Ảnh 4">
-                        <h2 class="name">Điểm đến 1</h2>
-                        <p class="desc">
+                <li class="item w-1/3 px-4 mb-8 box-border">
+                    <div class=" wrap border border-solid border-gray-300 rounded-lg h-full overflow-hidden">
+                        <img class="w-full h-auto cursor-pointer transition duration-500" src="images/pic3.png" width="500" height="500" alt="Ảnh 4">
+                        <h2 class="name text-center text-2xl font-bold uppercase py-4 px-5">Điểm đến 3</h2>
+                        <p class="desc px-5 pb-5">
                             Bạn đang được giao việc xây dựng trang web cho một công ty du lịch. Trang web cần hiển
                             thị danh sách các điểm đến phổ biến và cho phép người dùng đặt tour. Hãy xây dựng layout
                             của trang web với HTML và CSS.
                         </p>
                     </div>
                 </li>
-                <li class="item">
-                    <div class="wrap">
+                <li class="item w-1/3 px-4 mb-8 box-border">
+                    <div class="wrap border border-solid border-gray-300 rounded-lg h-full overflow-hidden">
                         <img src="images/pic4.png" width="500" height="500" alt="Ảnh 3">
-                        <h2 class="name">Điểm đến 1</h2>
-                        <p class="desc">
+                        <h2 class="name text-center text-2xl font-bold uppercase py-4 px-5">Điểm đến 4</h2>
+                        <p class="desc px-5 pb-5">
                             Bạn đang được giao việc xây dựng trang web cho một công ty du lịch. Trang web cần hiển
                             thị danh sách các điểm đến phổ biến và cho phép người dùng đặt tour. Hãy xây dựng layout
                             của trang web với HTML và CSS.
                         </p>
                     </div>
                 </li>
-                <li class="item">
-                    <div class="wrap">
+                <li class="item w-1/3 px-4 mb-8 box-border">
+                    <div class="wrap border border-solid border-gray-300 rounded-lg h-full overflow-hidden">
                         <img src="images/pic5.png" width="500" height="500" alt="Ảnh 3">
 
-                        <h2 class="name">Điểm đến 1</h2>
-                        <p class="desc">
+                        <h2 class="name text-center text-2xl font-bold uppercase py-4 px-5">Điểm đến 5</h2>
+                        <p class="desc px-5 pb-5">
                             Bạn đang được giao việc xây dựng trang web cho một công ty du lịch. Trang web cần hiển
                             thị danh sách các điểm đến phổ biến và cho phép người dùng đặt tour. Hãy xây dựng layout
                             của trang web với HTML và CSS.
@@ -82,11 +81,11 @@
 
                     </div>
                 </li>
-                <li class="item">
-                    <div class="wrap">
+                <li class="item w-1/3 px-4 mb-8 box-border">
+                    <div class="wrap border border-solid border-gray-300 rounded-lg h-full overflow-hidden">
                         <img src="images/pic1.png" width="500" height="500" alt="Ảnh 3">
-                        <h2 class="name">Điểm đến 1</h2>
-                        <p class="desc">
+                        <h2 class="name text-center text-2xl font-bold uppercase py-4 px-5">Điểm đến 6</h2>
+                        <p class="desc px-5 pb-5">
                             Bạn đang được giao việc xây dựng trang web cho một công ty du lịch. Trang web cần hiển
                             thị danh sách các điểm đến phổ biến và cho phép người dùng đặt tour. Hãy xây dựng layout
                             của trang web với HTML và CSS.
@@ -98,28 +97,43 @@
         </section>
 
         <section id="form-register">
-            <h1>Đăng Ký Thông Tin</h1>
-            <form action="/submit" method="post">
+            <h2 class="text-center text-2xl font-bold uppercase py-4 px-5">Đăng Ký Thông Tin</h2>
+            <form action="/submit" method="post" class="max-w-xs w-full mx-auto">
 
                 <label for="name">Tên:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" class="p-2 px-4 mb-4 border border-solid border-gray-300 rounded-md" required >
 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" class="p-2 px-4 mb-4 border border-solid border-gray-300 rounded-md" required>
 
                 <label for="location">Địa điểm đến:</label>
-                <input type="text" id="location" name="location" required>
+                <input type="text" id="location" name="location" class="p-2 px-4 mb-4 border border-solid border-gray-300 rounded-md" required>
 
                 <label for="date">Ngày khỏi hành:</label>
-                <input type="date" id="date" name="date" required>
+                <input type="date" id="date" name="date" class="p-2 px-4 mb-4 border border-solid border-gray-300 rounded-md" required>
 
-                <button type="submit">Gửi</button>
+                <button type="submit" class="inline-block px-10 py-3 mx-auto cursor-pointer border border-solid border-black bg-gray-200">Gửi</button>
             </form>
         </section>
+        <div class="comments" id="comments">
+            <h2 class="text-2xl font-bold">Bình Luận</h2>
+            <ul id="comment-list" class="ml-4 mt-2"></ul>
+            <textarea
+                class="border border-gray-300 p-3 rounded-md"
+                id="comment-input"
+                placeholder="Thêm bình luận"
+            ></textarea>
+            <button
+                onclick="addComment()"
+                class="bg-red-500 text-white font-bold py-2 px-4 rounded hover:bg-red-700 mt-5"
+                >
+                Thêm
+            </button>
+        </div>
     </main>
 
     <footer>
-        <p>© 2024 Bài test basic HTML</p>
+        <p class="text-center bg-gray-900 py-16 mt-8 text-white">© 2024 Bài test basic HTML</p>
     </footer>
 
 </body>
@@ -140,11 +154,6 @@
         font-family: 'Roboto', sans-serif;
         font-size: 15px;
         font-weight: 400;
-        margin: 0;
-        padding: 0;
-    }
-    h1 {
-        text-align: center;
     }
     img{
         width: 100%;
@@ -152,72 +161,24 @@
         cursor: pointer;
         transition: 0.5s;
     }
-    main {
-        width: 1170px;
-        padding: 15px;
-        box-sizing: border-box;
-        margin: 0 auto;
-        overflow: hidden;
-    }
     ul{
         list-style: none;
-        padding: 0;
-        display: flex;
-        margin: 0 -15px;
-        flex-wrap: wrap;
-    }
-    li.item {
-        width: 33.333%;
-        padding: 0 15px;
-        margin-bottom: 30px;
-        box-sizing: border-box;
-    }
-    .item .wrap {
-        border: 1px solid #eee;
-        border-radius: 10px;
-        height: 100%;
-        overflow: hidden;
-    }
-    .wrap h2, .wrap p {
-        padding-left: 20px;
-        padding-right: 20px;
     }
     .wrap img:hover{
         opacity: 0.9;
         transform: scale(1.1);
         transition: 0.5s;
     }
-    #form-register {
-        max-width: 500px;
-        width: 100%;
-        margin: 0 auto;
-    }
     #form-register form {
         display: flex;
         flex-direction: column;
         align-items: stretch;
     }
-    form input {
-        padding: 10px 20px;
-        border-radius: 5px;
-        margin-bottom: 15px;
-    }
     form button {
         width: auto;
         max-width: fit-content;
-        padding: 10px 30px;
-        margin: 0 auto;
-        cursor: pointer;
     }
     /* Popup style */
-    .popup-img {
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        display: none;
-    }
     .popup-img .close{
         position: absolute;
         background: rgb(0 0 0 / 50%);
@@ -225,39 +186,77 @@
         height: 100%;
         z-index: 1;
     }
-    .box {
-        width: 50%;
-        height: auto;
-        position: absolute;
+    .popup-img .box {
         z-index: 2;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
     }
     .box img{
         animation: zoom-in-zoom-out 4s ease-out infinite;
     }
 
-    /* Footer style */
-    footer p {
-        text-align: center;
-        background-color: #1f1f1f;
-        padding: 50px 0;
-        margin: 30px 0 0;
-        color: #FFF;
-    }
 </style>
 <script type="text/javascript">
-    $(document).ready(function(){
-        $(".item img").on("click", function(){
-                var imageUrl = $(this).attr("src");
+    document.addEventListener("DOMContentLoaded", function() {
+    var itemImages = document.querySelectorAll(".item img");
+    var popupImage = document.getElementById("popup-image");
+    var popup = document.querySelector(".popup-img");
+    var closeButton = document.querySelector(".close");
 
-                $("#popup-image").attr("src", imageUrl);
-                $(".popup-img").show();
+    itemImages.forEach(function(img) {
+            img.addEventListener("click", function() {
+                var imageUrl = this.getAttribute("src");
+                popupImage.setAttribute("src", imageUrl);
+                popup.style.display = "block";
             });
+        });
 
-            $(".close").on("click", function(){
-                $(".popup-img").hide();
-            });
+        closeButton.addEventListener("click", function() {
+            popup.style.display = "none";
+        });
     });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const comments = getCommentsFromLocalStorage();
+      displayComments(comments);
+    });
+
+    function addComment() {
+      const commentInput = document.getElementById("comment-input");
+      const commentText = commentInput.value.trim();
+
+      if (commentText !== "") {
+        const newComment = {
+          text: commentText,
+          timestamp: new Date().toLocaleString(),
+        };
+        const comments = getCommentsFromLocalStorage();
+        comments.push(newComment);
+        saveCommentsToLocalStorage(comments);
+
+        displayComments(comments);
+
+        commentInput.value = "";
+      }
+    }
+
+    function getCommentsFromLocalStorage() {
+      const commentsString = localStorage.getItem("comments");
+      return commentsString ? JSON.parse(commentsString) : [];
+    }
+
+    function saveCommentsToLocalStorage(comments) {
+      localStorage.setItem("comments", JSON.stringify(comments));
+    }
+
+    function displayComments(comments) {
+      const commentList = document.getElementById("comment-list");
+
+      commentList.innerHTML = "";
+      comments.forEach((comment) => {
+        const listItem = document.createElement("li");
+        listItem.className = "comment";
+        listItem.textContent = `${comment.text} - ${comment.timestamp}`;
+        commentList.appendChild(listItem);
+      });
+    }
+
 </script>
